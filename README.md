@@ -10,8 +10,10 @@ Project Bikeshare
 Python script which provide an user interface on the command line to dive into descriptive analysis of the bikeshare database for 3 cities
 
 ### Files used
-chicago.csv
-new_york_city.csv
+chicago.csv;
+
+new_york_city.csv;
+
 washington.csv
 
 ### Credits
