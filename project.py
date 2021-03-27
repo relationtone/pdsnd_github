@@ -237,6 +237,9 @@ def user_stats(df):
 def raw_data(df):
     """Displays 5 lines of raw data if requested by user."""
 
+    # update to show all columns
+    pd.set_option('display.max_columns',200)
+
     i = 0
     while True:
         request = input('\nWould you like to display 5 lines of raw data? Enter yes or no.\n')
