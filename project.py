@@ -1,7 +1,6 @@
 import time
 import calendar
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -236,6 +235,9 @@ def user_stats(df):
 
 def raw_data(df):
     """Displays 5 lines of raw data if requested by user."""
+
+    # update to show all columns
+    pd.set_option('display.max_columns',200)
 
     i = 0
     while True:
